@@ -9,10 +9,10 @@ class Time(Date):           # Herda método a partir da classe Date().
         return '08:11:30'
 
 
-date = Date()
-print(date.get_date())
+data = Date()
+print(data.get_date())
 
-time = Time()
-print(time.get_time())
-print(time.get_date())
+tempo = Time()
+print(tempo.get_time())
+print(tempo.get_date())
 
